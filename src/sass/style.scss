@@ -28,6 +28,7 @@ body
         justify-content: center;
         align-items: center;
         padding: 1em;
+        height: 100vh;
     }
 }
 .card
@@ -78,6 +79,8 @@ body
     }
     &__stats
     {
+        display: flex;
+        flex-direction: column;
         &--first, &--second, &--third
         {
             margin: 2em;
@@ -86,6 +89,7 @@ body
                 margin: .5em;
                 font-size: 1.4rem;
                 color: $stat_heading;
+                font-family: 'Lexend Deca';
                 text-transform: uppercase;
             }
         }
